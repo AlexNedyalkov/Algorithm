@@ -16,7 +16,7 @@ def generating_combinations(numbers, vector, index = 0):
         generating_combinations(numbers[index:], vector, index + 1)
 
 
-number_of_elements = 3
+number_of_elements = 2
 my_list = [None] * number_of_elements
 # generate_combinations_01(8, 0, my_list)
 
