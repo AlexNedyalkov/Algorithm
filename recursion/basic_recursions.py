@@ -9,7 +9,14 @@ def recursive_factorial(number: int):
     if number == 0:
         return 1
     return number * recursive_factorial(number - 1)
-
+#
+#
+# def recursive_drawing(number):
+#     if number == 0:
+#         return
+#     print('*' * number)
+#     recursive_drawing(number - 1)
+#     print('#' * number)
 
 def recursive_drawing(number):
     if number == 0:
@@ -18,8 +25,7 @@ def recursive_drawing(number):
     recursive_drawing(number - 1)
     print('#' * number)
 
-
-my_array = [1,2,3,4]
-print(recursive_sum(my_array))
-print(recursive_factorial(10))
+array = [1,2,3,4]
+print(recursive_sum(array))
+print(recursive_factorial(4))
 recursive_drawing(3)
